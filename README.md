@@ -4,7 +4,7 @@ Elke ochtend haalt GitHub Actions de uurverwachting van 9 weermodellen op voor Ã
 (50.95 N, 5.25 O) en zet ze in `data/`: ECMWF, ECMWF-AI, ICON, GFS, AROME, HARMONIE (KNMI en DMI),
 UKMO en GEM.
 
-- `data/<model>.csv`: uurwaarden (temperatuur, neerslag, sneeuw, wind, windstoten, dauwpunt)
+- `data/<model>.csv`: uurwaarden (temperatuur, neerslag, sneeuw, wind, windstoten, dauwpunt, zicht)
 - `data/daily.csv`: neerslag per dag, zonsopkomst en -ondergang
 - `data/meta.json`: tijdstip van ophalen en welke modellen gelukt zijn
 

@@ -8,7 +8,7 @@ LAT, LON = 50.95, 5.25
 MODELS = ["ecmwf_ifs025", "ecmwf_aifs025_single", "icon_seamless", "gfs_seamless", "meteofrance_seamless",
           "knmi_seamless", "dmi_seamless", "ukmo_seamless", "gem_seamless"]
 HOURLY = ["temperature_2m", "precipitation", "snowfall", "wind_speed_10m", "wind_direction_10m",
-          "wind_gusts_10m", "dew_point_2m"]
+          "wind_gusts_10m", "dew_point_2m", "visibility"]
 API = "https://api.open-meteo.com/v1/forecast"
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
