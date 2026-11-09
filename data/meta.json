@@ -1,0 +1,16 @@
+{
+ "fetched_utc": "2026-11-09T13:19:20Z",
+ "lat": 50.95,
+ "lon": 5.25,
+ "models": [
+  "ecmwf_ifs025",
+  "ecmwf_aifs025_single",
+  "icon_seamless",
+  "gfs_seamless",
+  "meteofrance_seamless",
+  "knmi_seamless",
+  "dmi_seamless",
+  "ukmo_seamless",
+  "gem_seamless"
+ ]
+}
