@@ -1,11 +1,10 @@
 name: Weermodellen ophalen
 on:
-  schedule:                # GitHub start geplande runs niet gegarandeerd: daarom meerdere kansen
-    - cron: "41 16 * * *"  # 17u41 winter: reserve voor de volgende ochtend
-    - cron: "13 2 * * *"   # 3u13 winter / 4u13 zomer (Brussel)
-    - cron: "47 3 * * *"   # 4u47 winter / 5u47 zomer
-    - cron: "33 4 * * *"   # 5u33 winter / 6u33 zomer
-    - cron: "7 5 * * *"    # 6u07 winter / 7u07 zomer
+  # Geplande runs starten bij GitHub 5 tot 8 uur te laat (gemeten 10-11/11/2026). De ochtendtaak
+  # start het ophalen daarom zelf om 6u49 (workflow_dispatch); deze runs zijn alleen reserve.
+  schedule:
+    - cron: "41 16 * * *"
+    - cron: "11 20 * * *"
   workflow_dispatch:
   push:
     paths: ["fetch.py", ".github/workflows/fetch.yml"]
