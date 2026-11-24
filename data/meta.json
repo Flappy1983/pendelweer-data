@@ -1,8 +1,9 @@
 {
- "fetched_utc": "2026-11-24T03:05:02Z",
+ "fetched_utc": "2026-11-24T04:42:45Z",
  "lat": 50.95,
  "lon": 5.25,
  "models": [
+  "ecmwf_ifs025",
   "ecmwf_aifs025_single",
   "icon_seamless",
   "gfs_seamless",
